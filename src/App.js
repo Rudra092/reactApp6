@@ -1,6 +1,6 @@
 import './App.css';
 /*router*/
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import AppHeader from './components/header';
 import Home from './components/home';
 import AppListing from './components/listing';
