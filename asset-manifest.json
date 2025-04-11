@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/reactApp6/static/css/main.f30fd3c5.css",
+    "main.js": "/reactApp6/static/js/main.48a61ff4.js",
+    "static/js/453.ad6eb26e.chunk.js": "/reactApp6/static/js/453.ad6eb26e.chunk.js",
+    "static/media/image.png": "/reactApp6/static/media/image.86d631f94bb60b73f409.png",
+    "static/media/image-12.webp": "/reactApp6/static/media/image-12.d9c4d4774dede997e8fa.webp",
+    "static/media/image-13.webp": "/reactApp6/static/media/image-13.7f9c90b37121e536efb5.webp",
+    "static/media/image-14.webp": "/reactApp6/static/media/image-14.5ba5f9f7ff5c5cedf6d9.webp",
+    "static/media/image-9.webp": "/reactApp6/static/media/image-9.7181b938ec9a1cf95c0d.webp",
+    "static/media/image-11.webp": "/reactApp6/static/media/image-11.104d562b491772597f85.webp",
+    "static/media/image-3.webp": "/reactApp6/static/media/image-3.57842236a6ba3470b2ea.webp",
+    "static/media/image-2.webp": "/reactApp6/static/media/image-2.7b4b629ed24bd3fe0355.webp",
+    "static/media/image-7.webp": "/reactApp6/static/media/image-7.835ae730021354bc85d0.webp",
+    "static/media/image-6.webp": "/reactApp6/static/media/image-6.25f263d48dde90e6776a.webp",
+    "static/media/image-5.webp": "/reactApp6/static/media/image-5.9e8a01af507366000190.webp",
+    "static/media/image-10.webp": "/reactApp6/static/media/image-10.b2ed8711cd88a7870d57.webp",
+    "static/media/image-4.webp": "/reactApp6/static/media/image-4.aeca3b094a112cf96a0d.webp",
+    "static/media/town.png": "/reactApp6/static/media/town.74cbc015c2a6db44c071.png",
+    "static/media/image-1.webp": "/reactApp6/static/media/image-1.cce421233fcb6c7bab38.webp",
+    "static/media/image-8.webp": "/reactApp6/static/media/image-8.65e97da3b74fda2dcd85.webp",
+    "static/media/villa.png": "/reactApp6/static/media/villa.8a2107665dc507ff2653.png",
+    "static/media/appartment.png": "/reactApp6/static/media/appartment.2111df2baf72c07f202d.png",
+    "static/media/studio.png": "/reactApp6/static/media/studio.06070d8a412f59ae6eb4.png",
+    "index.html": "/reactApp6/index.html",
+    "main.f30fd3c5.css.map": "/reactApp6/static/css/main.f30fd3c5.css.map",
+    "main.48a61ff4.js.map": "/reactApp6/static/js/main.48a61ff4.js.map",
+    "453.ad6eb26e.chunk.js.map": "/reactApp6/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f30fd3c5.css",
+    "static/js/main.48a61ff4.js"
+  ]
+}
