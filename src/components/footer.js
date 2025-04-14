@@ -1,4 +1,4 @@
-import logo from "../assets/footer-logo.png";
+import logo from "../assets/logo-2.png";
 export default function AppFooter(){
     return(
         <footer className="bg-gray-900 text-gray-400">
@@ -7,7 +7,7 @@ export default function AppFooter(){
 
           {/* Logo + Social */}
           <div className="md:col-span-2">
-            <img src={logo} alt="Logo" className="h-10 mb-4" />
+            <img src={logo} alt="Logo" className="h-16 mb-4" />
             <p className="mb-4 text-xl">Building elegant web solutions for modern businesses.</p>
           </div>
 

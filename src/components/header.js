@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-1.png";
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { Link, NavLink } from 'react-router-dom';
 import { Bars3Icon, ChevronDownIcon, UserCircleIcon } from '@heroicons/react/24/outline';
@@ -38,11 +38,11 @@ export default function AppHeader() {
                     {/* Logo Section */}
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex shrink-0 items-center">
-                            <img src={logo} alt="Your Company" className="h-8 w-auto" />
+                            <img src={logo} alt="Your Company" className="h-16 w-auto" />
                         </div>
                         {/* Desktop Menu */}
                         <div className="hidden sm:ml-6 sm:block">
-                            <div className="flex space-x-4">
+                            <div className="flex space-x-4 mt-[14px]">
                                 {navigation.map((item) => (
                                     item.dropdown ? (
                                         <Menu as="div" key={item.name} className="relative">
@@ -78,9 +78,10 @@ export default function AppHeader() {
                         </div>
                     </div>
                     {/* Add Property Button */}
-                    <button className="border border-orange-500 hover:bg-orange-700 text-orange-500 hover:text-white font-medium py-2 px-4 rounded-md mr-4 hidden sm:inline">
-                        Add property
-                    </button>
+                    <Link to="/property"
+  className="border border-orange-500 hover:bg-orange-700 text-orange-500 hover:text-white font-medium py-2 px-4 rounded-md mr-4 hidden sm:inline">
+  Add property
+                    </Link>
                     {/* Profile Dropdown */}
                     <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 z-50">
                         <Menu as="div" className="relative">
@@ -137,9 +138,16 @@ export default function AppHeader() {
                             </NavLink>
                         )
                     ))}
-                    <button className="border border-orange-500 hover:bg-orange-700 text-orange-500 hover:text-white font-medium py-2 px-4 rounded-md w-full">
-                        Add property
-                    </button>
+<div className="flex justify-center mt-4">
+  <div className="w-full max-w-xs">
+    <Link
+      to="/property"
+      className="block text-center border border-orange-500 hover:bg-orange-700 text-orange-500 hover:text-white font-medium py-2 px-4 rounded-md w-full"
+    >
+      Add property
+    </Link>
+  </div>
+</div>
                 </div>
             </DisclosurePanel>
         </Disclosure>

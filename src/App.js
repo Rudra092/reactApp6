@@ -8,6 +8,7 @@ import AppPages from './components/pages';
 import AppBlog from './components/blog';
 import AppContact from './components/contact';
 import AppFooter from './components/footer';
+import AppProperty from './components/property';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route path="/pages" element={<AppPages/>} />
         <Route path="/blog" element={<AppBlog/>} />
         <Route path="/contact" element={<AppContact/>} />
+        <Route path="/property" element={<AppProperty/>} />
       </Routes>
     <AppFooter/>
     </Router> 
